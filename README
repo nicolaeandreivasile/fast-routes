@@ -1,4 +1,4 @@
-	//~~ Spanning Tree Protocol(almost) ~~//
+	//~~ Spanning Tree Protocol (almost) ~~//
 
 	Predicates for lists: tail(returns the tail of the list), member(checks if
 element is in list), rev(revert the list).
