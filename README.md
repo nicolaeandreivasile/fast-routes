@@ -26,6 +26,9 @@ For an easier time running the program, swipl will be used, where Network is a g
 ### Example
 
 > Network = [[[1, 50], [2, 20], [3, 30], [4, 45], [5, 60]] ,[[1,2, 6],[2,3, 3], [3,4, 1], [4,5, 500], [2,4, 5], [1,4, 1]]] (a list with nodes and their priorities and a list with edges and their weight)
+####
 > stp(Network, Root, Edges).
+####
 > Output: Root = 2,			
+####
 > Edges = [[2, 3], [3, 4], [4, 1], [4, 5]].
